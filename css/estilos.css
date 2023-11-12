@@ -34,6 +34,25 @@ footer {
     text-align: center;
   }
 }
+.imagen {
+  height: 100%;
+  width: 100%;
+  background-image: url(../assets/img/tienda2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .textoJustificado {
   text-align: justify;
 }
@@ -84,4 +103,9 @@ footer {
 
 .fondotext {
   background: white;
+}
+
+span {
+  font-weight: bold;
+  color: brown;
 }

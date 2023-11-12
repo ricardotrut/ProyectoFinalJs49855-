@@ -1,3 +1,20 @@
+.imagen{
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/img/tienda2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 .textoJustificado{
     text-align: justify;
 }
@@ -45,3 +62,9 @@
 .fondotext{
     background: $fondo-texto;
 }
+
+span{
+    font-weight: bold;
+    color: brown;
+}
+
