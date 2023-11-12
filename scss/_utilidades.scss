@@ -1,0 +1,47 @@
+.textoJustificado{
+    text-align: justify;
+}
+.ceter{
+    text-align: center;
+}
+.marginTopF{
+    margin-top: 10px;
+    border-top: solid 3px rgb(189, 188, 188);
+}
+.linkN{
+    text-decoration: none;
+    color: gray;
+}
+
+.linkF{
+    @extend .linkN;
+    color: aliceblue;
+    border: solid red 1px;
+    border-radius: 15px;
+}
+.marginB{
+    margin-bottom: 15px;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.evenly
+{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+}
+
+.fillImage{
+    width: 100%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.fondotext{
+    background: $fondo-texto;
+}

@@ -1,0 +1,21 @@
+header{
+    .logo{
+        height: map-get($alturas, h80 );
+        width: map-get($alturas , w80 );
+    }
+    .borderAbajo{
+        border-bottom: $borde-abajo;
+    }
+    .linknav :hover{
+        text-decoration: none;
+        background-color: rgb(111, 160, 144);
+        border: solid black 1px;
+        border-radius: 5%;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+
+
