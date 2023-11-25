@@ -44,7 +44,7 @@ footer {
 }
 
 .cover {
-  height: 100%;
+  height: 450px;
   width: 100%;
   background-size: contain;
   background-position: center;
@@ -108,4 +108,15 @@ footer {
 span {
   font-weight: bold;
   color: brown;
+}
+
+.error {
+  font-size: xx-large;
+  font-weight: 700;
+  color: white;
+}
+
+.icoerror {
+  height: 180px;
+  width: 180px;
 }
