@@ -18,7 +18,7 @@ header .borderAbajo {
 }
 header .linknav :hover {
   text-decoration: none;
-  background-color: rgb(111, 160, 144);
+  background-color: rgba(190, 183, 209, 0.315);
   border: solid black 1px;
   border-radius: 5%;
   color: white;
@@ -114,9 +114,4 @@ span {
   font-size: xx-large;
   font-weight: 700;
   color: white;
-}
-
-.icoerror {
-  height: 180px;
-  width: 180px;
 }
