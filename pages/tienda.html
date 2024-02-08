@@ -54,6 +54,18 @@
     <main>
         <div class="container fondotext">
             <h1>Tienda</h1>
+            <form id="saldoInicialF">
+                <label for="saldoInicial">Saldo Inicial</label>
+                <input type="number" name="saldoInicial" id="saldoInicial">
+                <button type="button" id="botonGuardar">Enviar Saldo</button>
+            </form>
+            <div id="displaySaldo">
+                <p>Tu saldo es $0</p>
+            </div>
+            <div>
+                <p id="saldoInsuficiente"></p>
+            </div>
+            
         </div>
         <section class="container">
             <div class="row marginB">
@@ -80,7 +92,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/gazul.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $1500 USD</button>
+                        <button id="comprar1" type="button" class="btn btn-primary btn-sm">Comprar $1500 USD</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 bg-light border border-1 rounded marginB">
@@ -106,7 +118,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/gdorada.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $2200 USD</button>
+                        <button id="comprar2" type="button" class="btn btn-primary btn-sm">Comprar $2200 USD</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 bg-light border border-1 rounded marginB">
@@ -131,7 +143,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/gmorada.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $1800 USD</button>
+                        <button id="comprar3" type="button" class="btn btn-primary btn-sm">Comprar $1800 USD</button>
                     </div>
                 </div>
             </div>
@@ -158,7 +170,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/gv.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $1800 USD</button>
+                        <button id="comprar4" type="button" class="btn btn-primary btn-sm">Comprar $1800 USD</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 bg-light border border-1 rounded marginB">
@@ -182,7 +194,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/ff.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $1100 USD</button>
+                        <button id="comprar5" type="button" class="btn btn-primary btn-sm">Comprar $1100 USD</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 bg-light border border-1 rounded marginB">
@@ -205,7 +217,7 @@
                             </p>
                         </div>
                         <img class="fillImage" src="../assets/img/acu.png" alt="">
-                        <button type="button" class="btn btn-primary btn-sm">Comprar $1100 USD</button>
+                        <button id="comprar6" type="button" class="btn btn-primary btn-sm">Comprar $1100 USD</button>
                     </div>
                 </div>
             </div>
@@ -231,6 +243,7 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
