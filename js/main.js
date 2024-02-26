@@ -247,10 +247,26 @@ carrito.addEventListener("click", function() {
 
     message += "</ul>";
     Swal.fire({
-        title: "Shopping List",
+        title: "Carrito de Compras",
         html: message,
-        confirmButtonText: "Pagar $" + saldoCarrito
-    });
+        showCancelButton: true,
+        confirmButtonText: "Pagar $" + saldoCarrito,
+        cancelButtonText: "Cancelar",
+    }).then((result) => {
+      if (result.isConfirmed) {
+          Swal.fire({
+              title: "Gracias!",
+              text: "Tu compra se ha completado!",
+              icon: 'success'
+          });
+      } else if (result.dismiss === Swal.DismissReason.cancel){
+        Swal.fire(
+          "Cancelado",
+          "Tu compra se ha cancelado",
+          'error'
+      );
+      }
+});
 });
 
 
