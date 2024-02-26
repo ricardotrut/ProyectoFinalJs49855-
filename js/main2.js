@@ -15,4 +15,13 @@ button.addEventListener("click", function(){
         localStorage.setItem("apellido",apellido.value)
         localStorage.setItem("comentario",comentario.value)
 
+        Swal.fire({
+                title: "Informacion Enviada",
+                text: "Gracias",
+                imageUrl: "../assets/img/gv.png",
+                imageWidth: 400,
+                imageHeight: 200,
+              });
+
 })
+

@@ -55,15 +55,20 @@
         <div class="container fondotext">
             <h1>Tienda</h1>
             <form id="saldoInicialF">
-                <label for="saldoInicial">Saldo Inicial</label>
+                <label for="saldoInicial">Saldo Inicial MXN</label>
                 <input type="number" name="saldoInicial" id="saldoInicial">
                 <button type="button" id="botonGuardar">Enviar Saldo</button>
             </form>
-            <div id="displaySaldo">
-                <p>Tu saldo es $0</p>
-            </div>
             <div>
-                <p id="saldoInsuficiente"></p>
+                <div id="displaySaldo" style="justify-content: left;">
+                    <p>Tu saldo es $0</p>
+                </div>
+                <div>
+                    <p id="saldoInsuficiente"></p>
+                </div>
+                <div id="exchange-rate" style="display: flex; justify-content: right;">
+                </div>
+                <button type="button" id="carrito">Carrito</button>
             </div>
             
         </div>
@@ -241,7 +246,7 @@
             </div>
         </section>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/main.js"></script>
 </body>
